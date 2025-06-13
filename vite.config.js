@@ -8,6 +8,7 @@ export default defineConfig({
     watch: {
       usePolling: true,
     },
+    allowedHosts: ['ec2-15-207-250-121.ap-south-1.compute.amazonaws.com'], // or 'all'
     host: true,
     strictPort: true,
     port: 5173,
